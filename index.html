@@ -285,12 +285,12 @@
                 loadingElement.innerHTML = 'Redirecting to Google Play Store...<br><span style="font-size: 0.9em; opacity: 0.8;">Google Play Store वर पाठवत आहे...</span>';
                 setTimeout(() => {
                     window.location.href = ANDROID_URL;
-                }, 2000);
+                }, 1000);
             } else if (device.isIOS) {
                 loadingElement.innerHTML = 'Redirecting to App Store...<br><span style="font-size: 0.9em; opacity: 0.8;">App Store वर पाठवत आहे...</span>';
                 setTimeout(() => {
                     window.location.href = IOS_URL;
-                }, 2000);
+                }, 1000);
             } else {
                 loadingElement.style.display = 'none';
                 manualLinksElement.style.display = 'block';
@@ -310,4 +310,5 @@
     </script>
 </body>
 </html>
+
 
